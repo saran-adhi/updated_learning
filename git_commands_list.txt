@@ -1,14 +1,3 @@
 =====================JUNE 13,2024===================
 git add .
-git commit -m ''
-git restore file1.txt
-git rm --cached file1.txt
-git log
-git log --onelines
-
-(git reset -> modifying head position using commit)
-git reset --hard 8292656fb655af912e38faaed0144a71d4f451dc  => delete includes data and commit(deleted both wd and lr)
-git reset --soft 8292656fb655af912e38faaed0144a71d4f451dc  => delete only commit (deletes only lr),by default reset will be default
-
-(git revert -> deleting particular commit)
-git revert 8292656fb655af912e38faaed0144a71d4f451dc
+git 
