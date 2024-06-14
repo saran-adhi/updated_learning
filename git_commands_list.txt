@@ -18,3 +18,10 @@ git revert 8292656fb655af912e38faaed0144a71d4f451dc --no-commit => prevent edito
 <----SESSION 2---->
 1.Git Repository
 2.Vendors: => bitbucket,gitlab,github
+
+git remote -v
+git push
+git push origin main
+
+=====================JUNE 14,2024===================
+<----SESSION 3---->
