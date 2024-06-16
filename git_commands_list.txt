@@ -30,3 +30,18 @@ git push origin main
 git branch
 git branch <branch name>
 git checkout <branch name>
+git checkout -b <branch name> => create and checkout branch
+git checkout -d <branch name> => delete branch
+git merge <from> <to>  
+
+<----SESSION 4---->
+1.Rebase,Cherry-pick,Stash
+
+rebase => combining a sequence of commit to one branch
+cherry-pick => picking a commit from one branch and applying to another
+Stash => saves local modifications away and revert working directory to match the HEAD commit
+
+git stash
+git stash list 
+git stash pop
+git stash pop <id 1>
